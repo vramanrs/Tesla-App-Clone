@@ -3,9 +3,11 @@ import React from 'react';
 import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 import CarItem from './components/carItem'
 export default function App() {
+ 
   return (
     <View style={styles.container}>
       <CarItem/>
+    
       <StatusBar style="auto" />
     </View>
   );
